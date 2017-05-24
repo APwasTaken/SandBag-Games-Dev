@@ -26,7 +26,7 @@ public class Player : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-
+		
 	}
 	//the method to trigger the death animation;
 	void Death() {
@@ -34,6 +34,9 @@ public class Player : MonoBehaviour {
 		if (hp <= 0){
 			//setting the trigger in animator to die
 			animator.SetTrigger("Die");
+		}
+		else {
+			Debug.Log("Good Health", this);
 		}
 	}
 }
