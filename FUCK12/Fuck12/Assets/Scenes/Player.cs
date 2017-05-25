@@ -7,7 +7,7 @@ public class Player : MonoBehaviour {
 	Animator animator;
 
 	//players health cant you fucking read
-	public float hp = 0.0f;
+	public static int hp = 3;
 
 	//players posistion learn to read
 	public float xAxis = 0.0f;
@@ -26,7 +26,7 @@ public class Player : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 	//the method to trigger the death animation;
 	void Death() {
