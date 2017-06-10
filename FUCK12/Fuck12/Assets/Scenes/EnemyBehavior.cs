@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class EnemyBehavior : MonoBehaviour {
 
-	Rigidbody2D rigBod;                               // Used later in the Start() function
+	//Rigidbody2D rigBod;                               // Used later in the Start() function
 	public float hp = 0.0f;	                          // This allows you to set the hp of the enemy in Unity
 
 	// This handles player collision
-	void OnTriggerEnter2D(Collider2D other) {
+	void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")) {
             Player.hp -= 1;                        // If enemy collides with the player, subtract 1 from player hp
 						Destroy(gameObject);  								 // as well as destroy this enemy game object
@@ -19,8 +19,8 @@ public class EnemyBehavior : MonoBehaviour {
 	// Initialize Enemy properties
 	void Start () {
 		hp = 2;                                         // Enemy starts with 2 hp
-		rigBod = GetComponent<Rigidbody2D>();		        // Initialize(sort of) the enemy to a Rigidbody2D object
-		rigBod.velocity = new Vector2(-3,0);					  // Enemy moves in the negative x-axis direction, we will change to negative y-axis direction
+		//rigBod = GetComponent<Rigidbody2D>();		        // Initialize(sort of) the enemy to a Rigidbody2D object
+		//rigBod.velocity = new Vector2(-3,0);					  // Enemy moves in the negative x-axis direction, we will change to negative y-axis direction
 	}
 
 	// Update is called once per frame

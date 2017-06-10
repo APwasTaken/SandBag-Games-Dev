@@ -12,6 +12,7 @@ public class Player : MonoBehaviour {
 	//players posistion learn to read
 	public float xAxis = 0.0f;
 	public float yAxis = 0.0f;
+	//public float speed = 0.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -23,7 +24,6 @@ public class Player : MonoBehaviour {
 		animator = GetComponent<Animator>();
 
 	}
-
 	// Update is called once per frame
 	void Update () {
 
