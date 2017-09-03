@@ -132,10 +132,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 679, y: 463}
-  m_MaxSize: {x: 18006, y: 14021}
+  m_MinSize: {x: 683, y: 463}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 2562
+  controlID: 137
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 463}
   m_MaxSize: {x: 4004, y: 12063}
   vertical: 1
-  controlID: 2563
+  controlID: 45
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -204,8 +204,8 @@ MonoBehaviour:
     y: 0
     width: 731
     height: 277
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 104, y: 121}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -231,8 +231,8 @@ MonoBehaviour:
     y: 498
     width: 731
     height: 233
-  m_MinSize: {x: 104, y: 121}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 19}
@@ -259,10 +259,10 @@ MonoBehaviour:
     y: 0
     width: 479
     height: 731
-  m_MinSize: {x: 275, y: 321}
-  m_MaxSize: {x: 10002, y: 14021}
+  m_MinSize: {x: 277, y: 342}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 1866
+  controlID: 138
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -418,23 +418,23 @@ MonoBehaviour:
     height: 710
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 6c260000
     m_LastClickedID: 0
-    m_ExpandedIDs: c4eaffffe6fbffff00000000
+    m_ExpandedIDs: 98f4ffff9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Enemy
+      m_OriginalName: Enemy
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 9628
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 7}
     m_SearchString: 
@@ -743,33 +743,33 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scenes/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scenes/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\locod\OneDrive\Documents\SandBag-Games-Dev\FUCK12\Fuck12
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e8240000
-    m_LastClickedID: 9448
-    m_ExpandedIDs: 0000000078240000ffffff7f
+    m_SelectedIDs: 68260000
+    m_LastClickedID: 9832
+    m_ExpandedIDs: 000000005c25000086250000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Scenes
+      m_OriginalName: Scenes
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 9606
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 13}
     m_SearchString: 
@@ -783,7 +783,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000078240000ffffff7f
+    m_ExpandedIDs: 000000005c250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

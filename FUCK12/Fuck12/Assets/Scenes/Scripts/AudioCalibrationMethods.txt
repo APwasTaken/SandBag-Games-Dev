@@ -1,0 +1,4 @@
+needed variables for audio calibration:
+
+dspBufferSize - The length of the DSP buffer in samples determining the latency of sounds by the audio output device.
+PCMSetPositionCallback - Delegate called each time AudioClip changes read position.
